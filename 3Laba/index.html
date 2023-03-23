@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initialscale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!--header start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+
+        <section>
+            <dialog>
+                <h2>Реклама!!!!!????</h2>
+                <p>
+                    <a class="btn" id="closeDialog">Ні, нажаль</a>
+                    <a class="btn" id="closeeDialog">Так, звісно!</a>
+                </p>
+            </dialog>
+        </section>
+
+        <div id="bg_popup">
+            <div id="popup">
+                <h1>Кросівки!!!!!</h1>
+                <p>Найкращі кросівки усіх часів!!!</p>
+                <img src="img/blog2.jpg" alt="">
+                <a class="close" id="close" href="#" title="Закрити"
+                    onclick="document.getElementById('bg_popup').style.display='none';">X</a>
+            </div>
+        </div>
+
+        <a class="back_to_top" title="Наверх">↑</a>
+
+        <nav class="navbar">
+            <a href="#home">Головна</a>
+            <a href="#about">Про Нас</a>
+            <a href="#menu">Меню</a>
+            <a href="./news.html">новини</a>
+        </nav>
+
+        <div class="icons">
+            <a href="./cart.html" class="fas fa-shopping-cart cart"></a>
+           
+            <div class="fas fa-bars" id="menu-btn"></div>
+            
+        </div>
+
+
+    </header>
+    <!--header end-->
+
+
+
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Наш Магазин</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iure veritatis sed amet sequi praesentium </p>
+            <a href="#" class="btn">замовляй  сьогодні</a>
+        </div>
+    </section>
+    <!-- Home section end-->
+
+
+
+  
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>Про </span>Нас</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/header.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> Чому саме наш магазин?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quod cupiditate! Totam atque
+                    dolores voluptatem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptate ipsa ad modi repudiandae
+                    praesentium aspernatur magni aliquid ab recusandae!</p>
+                <a href="#" class="btn open-popup">Читати більше</a>
+
+            </div>
+        </div>
+    </section>
+    <!--about section end-->
+
+    <!--menu section starts-->
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> Наше <span> Меню </span></h1>
+
+        <div class="box-container">
+            <div class="box" data-name="p-1">
+                <img src="img/1.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="price"> 1200₴ <span>1550 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-2">
+                <img src="img/2.jpg" alt="">
+                <h3>ЧЕРЕВИКИ ЧОЛОВІЧІ NH100 ДЛЯ ТУРИЗМУ СЕРЕДНЬОЇ ВИСОТИ ЧОРНІ</h3>
+                <div class="price"> 990 ₴ <span> 1110 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-3">
+                <img src="img/3.jpg" alt="">
+                <h3>ЧЕРЕВИКИ ЧОЛОВІЧІ NH100 ДЛЯ ТУРИЗМУ СЕРЕДНЬОЇ ВИСОТИ ЧОРНІ</h3>
+                <div class="price"> 1150 ₴ <span>1400 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-4">
+                <img src="img/4.jpg" alt="">
+                <h3>ЧЕРЕВИКИ ЧОЛОВІЧІ TREK 100 ДЛЯ ГІРСЬКОГО ТРЕКІНГУ</h3>
+                <div class="price">1300 ₴ <span> 1500 ₴ </span></div>
+            </div>
+
+            <div class="box" data-name="p-5">
+                <img src="img/5.jpg" alt="">
+                <h3>КРОСІВКИ ЧОЛОВІЧІ HW 100 ДЛЯ СПОРТИВНОЇ ХОДЬБИ - ЧОРНІ</h3>
+                <div class="price"> 1600 ₴ <span>1900 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-6">
+                <img src="img/6.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧОБОТИ SH100 Х-WARM ДЛЯ ЗИМОВОГО ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="price"> 1550 ₴ <span> 1850 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-7">
+                <img src="img/7.jpg" alt="">
+                <h3>ЧЕРЕВИКИ ЧОЛОВІЧІ TREK 100 ДЛЯ ГІРСЬКОГО ТРЕКІНГУ</h3>
+                <div class="price"> 2550 ₴ <span> 3000 ₴</span></div>
+            </div>
+
+            <div class="box" data-name="p-8">
+                <img src="img/8.jpg" alt="">
+                <h3>КРОСІВКИ ЧОЛОВІЧІ PW 100 ДЛЯ СПОРТИВНОЇ ХОДЬБИ - СІРІ</h3>
+                <div class="price"> 885 ₴ <span> 1085 ₴</span></div>
+            </div>
+        </div>
+
+
+        <div class="products-preview">
+            <div class="preview active" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <img src="img/1.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price">1200 ₴</div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <img src="img/2.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price">900₴</div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <img src="img/3.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price">1150₴</div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <img src="img/4.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price"> 1300 ₴ </div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="cart.html" class="cart"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <img src="img/5.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price"> 1600 ₴</div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <img src="img/6.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price"> 1550 ₴ </div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart-btn"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-7">
+                <i class="fas fa-times"></i>
+                <img src="img/7.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price"> 1550 ₴ </div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart-btn"> в корзину</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="p-8">
+                <i class="fas fa-times"></i>
+                <img src="img/8.jpg" alt="">
+                <h3>ЧОЛОВІЧІ ЧЕРЕВИКИ NH100 ДЛЯ ТУРИЗМУ - ЧОРНІ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, laboriosam!</p>
+                <div class="price"> 1550 ₴ </div>
+                <div class="buttons">
+                    <a href="#" class="buy">купити </a>
+                    <a href="#" class="cart-btn"> в корзину</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--menu section ends-->
+
+   <!--section blogs start-->
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> наші <span> новини </span></h1>
+
+        <div class="box-container2">
+            <div class="box2">
+                <div class="image">
+                    <img src="img/blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Які кросівки підійдуть саме тобі?</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, vel!</p>
+                    <a href="./news.html" class="btn">Читати більше</a>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="image">
+                    <img src="img/blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Де будуть нові магазини?</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, vel!</p>
+                    <a href="./news.html" class="btn">Читати більше</a>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="image">
+                    <img src="img/blog3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Новий магазин уже там</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, vel!</p>
+                    <a href="./news.html" class="btn">Читати більше</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--section blogs end-->
+
+    <!--section footer start-->
+    <section class="footer">
+        <div class="links">
+            <a href="#">Головна</a>
+            <a href="#">Про Нас</a>
+            <a href="#">Меню</a>
+            <a href="#">Новини</a>
+        </div>
+        <div class="credit">Created by <span>Eduard</span> | all rights reserved</div>
+    </section>
+
+    <section>
+        <div class="crocks" id="crocks">
+            <div class="btn center">
+                <a onclick="loadCrocks('number.option')">завантажити</a>
+                <select id="number">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </selectt>
+            </div>
+        </div>
+    </section>
+
+
+    <!--section footer end-->
+    <!--custom js file link-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
